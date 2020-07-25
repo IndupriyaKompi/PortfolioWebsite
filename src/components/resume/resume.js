@@ -22,7 +22,11 @@ export default  class Resume extends Component {
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
                           <p>
-                          {item.Achievements}
+                          {item.Achievements} <br/>
+                          {item.Achievements1} <br/>
+                          {item.Achievements2} <br/>
+                          {item.Achievements3} <br/>
+                         
                           </p>
                        </div>
                     </div>
